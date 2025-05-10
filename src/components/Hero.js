@@ -92,17 +92,20 @@ export default function Hero() {
             </Box>
           </Grid>
           <Grid item xs={12} md={5} sx={{ display: "flex", justifyContent: "center" }}>
-            <Avatar
-              alt="Bonam Osene"
-              src="/bonamphoto.jpg"
-              sx={{
-                width: { xs: 200, md: 300 },
-                height: { xs: 200, md: 300 },
-                border: "5px solid white",
-                boxShadow: "0 10px 30px rgba(0, 0, 0, 0.2)",
-              }}
-            />
-          </Grid>
+  <Box
+    component="img"
+    src="/bonamphoto.jpg"
+    alt="Bonam Osene"
+    sx={{
+      width: { xs: 200, md: 300 },
+      height: { xs: 200, md: 300 },
+      borderRadius: "50%", // to mimic Avatar's circular shape
+      border: "5px solid white",
+      boxShadow: "0 10px 30px rgba(0, 0, 0, 0.2)",
+      objectFit: "cover",
+    }}
+  />
+</Grid>
         </Grid>
         <Box
           sx={{
