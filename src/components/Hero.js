@@ -94,7 +94,7 @@ export default function Hero() {
           <Grid item xs={12} md={5} sx={{ display: "flex", justifyContent: "center" }}>
             <Avatar
               alt="Bonam Osene"
-              src="/bonamphoto.jpg?height=300&width=300"
+              src="/bonamphoto.jpg"
               sx={{
                 width: { xs: 200, md: 300 },
                 height: { xs: 200, md: 300 },
