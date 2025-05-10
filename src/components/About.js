@@ -77,27 +77,42 @@ export default function About() {
               </Typography>
 
               <Typography variant="body1" paragraph sx={{ textAlign: "justify" }}>
-                I am Bonam Osene, a passionate and ambitious technologist with a strong foundation in
-                science and a drive for innovation...
+                I am Bonam Osene, a passionate and ambitious technologist with a strong foundation in science 
+and a drive for innovation. I completed my high school education in Kumba at the Cameroon 
+College of Arts and Science. There, I excelled academically, earning an impressive 23 out of 
+25 points at the GCE Advanced level, and placed regional third in the Engineering Olympiads 
+organized by MIA and ASEND, which further fuelled my interest in technology and 
+engineering. 
               </Typography>
 
               <Typography variant="body1" paragraph sx={{ textAlign: "justify" }}>
-                Motivated by a desire to turn knowledge into real-world solutions, I pursued a degree in Applied Computer Technology...
+                Motivated by a desire to turn knowledge into real-world solutions, I pursued a degree in 
+Applied Computer Technology. Throughout my university studies, I maintained a strong 
+academic record, graduating with a GPA of 3.8 out of 4.0. This program equipped me with core 
+skills in software development, systems thinking, and practical computing, laying the 
+groundwork for a career in tech.
               </Typography>
 
               {/* Conditional paragraphs */}
               {(showAll || !isMobile) && (
                 <>
                   <Typography variant="body1" paragraph sx={{ textAlign: "justify" }}>
-                    I am currently embarking on my professional journey as a software engineer...
+                    I am currently embarking on my professional journey as a software engineer, with a focus on 
+learning, building, and collaborating on impactful projects. I am especially drawn to initiatives 
+that create value for communities and provide scalable solutions to everyday problems.
                   </Typography>
 
                   <Typography variant="body1" paragraph sx={{ textAlign: "justify" }}>
-                    In addition to my technical interests, I am deeply committed to personal growth...
+                    In addition to my technical interests, I am deeply committed to personal growth, leadership, 
+and service. I believe in using technology not just as a tool, but as a force for positive change. 
+I take pride in being both a learner and a contributor in every environment I find myself.
                   </Typography>
 
                   <Typography variant="body1" paragraph sx={{ textAlign: "justify" }}>
-                    Looking ahead, I am eager to specialize in machine learning...
+                    Looking ahead, I am eager to specialize in machine learning, combining my background in 
+software engineering with emerging technologies to solve complex challenges. My long-term 
+goal is to become a machine learning engineer who develops innovative, inclusive solutions 
+that push the boundaries of what technology can achieve.
                   </Typography>
                 </>
               )}

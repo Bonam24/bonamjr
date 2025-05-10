@@ -39,7 +39,7 @@ const awards = [
   },
   {
     id: 4,
-    name: "Matercard Foundation Scholarship",
+    name: "Mastercard Foundation Scholarship",
     issuer: "Mastercard Foundation",
     date: "2021",
     description:

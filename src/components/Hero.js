@@ -52,7 +52,7 @@ export default function Hero() {
                 maxWidth: "600px",
               }}
             >
-              A proficient software engineer with a keen interest Artificial Intelligence and Machine Learning in particular.
+              A proficient software engineer with a keen interest in Artificial Intelligence and Machine Learning in particular.
             </Typography>
             <Box sx={{ display: "flex", gap: 2, flexWrap: "wrap" }}>
               <Button
