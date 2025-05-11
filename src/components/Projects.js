@@ -68,12 +68,21 @@ const technicalProjects = [
     github: "https://github.com/Bonam24/CasinoApp",
     demo: "https://www.bundlesbets.casino/",
   },
+  {
+    id: 6,
+    title: "KEPHSA Registration Platform",
+    description:
+      "KEPHSA is a platform that helps Kenya pharmacy students to register as members of the Kenya Pharmacy Students Association. The platform is designed to streamline the registration process and provide executive members with the tools they need to manage the association effectively.",
+    tags: ["Node JS", "Firebase", "Express JS", "Material UI"],
+    github: "https://github.com/Bonam24/kephsa-register",
+    demo: "https://kephsa-register.vercel.app",
+  },
 ];
 
 // Community project data with new design
 const communityProjects = [
   {
-    id: 6,
+    id: 7,
     title: "Kibera Cyber Cafe",
     shortDescription: "An initiative that has provided basic computer skills to over 1000 students in Kibera, Nairobi.",
     impact: "1000+ students trained",
@@ -82,7 +91,7 @@ const communityProjects = [
     color: "#4e79a7"
   },
   {
-    id: 7,
+    id: 8,
     title: "Mentorship",
     shortDescription: "Made career guidiance and academic excellence presentation to over 2000+ students across 10+ schools in Kenya, career guidance.",
     impact: "Mentored 20+ students",
@@ -91,7 +100,7 @@ const communityProjects = [
     color: "#59a14f"
   },
   {
-    id: 8,
+    id: 9,
     title: "Solar Project",
     shortDescription: "Putting solar panels in village community halls to provide free electricity.",
     impact: "served over 1000 people",
