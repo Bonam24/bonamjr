@@ -27,7 +27,7 @@ export default function Footer() {
           }}
         >
           <Typography variant="body2" color="text.secondary">
-            &copy; {new Date().getFullYear()} Bonam Osene. All rights reserved.
+            &copy; {new Date().getFullYear()} Bonam Osene. Making the difference.
           </Typography>
 
           <Box sx={{ display: "flex", gap: 1 }}>

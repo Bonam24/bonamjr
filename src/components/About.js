@@ -5,9 +5,9 @@ import { Box, Container, Typography, Grid, Paper, Chip, Divider, Button } from "
 
 const skills = {
   languages: ["JavaScript", "Python", "Java", "C++", "HTML/CSS", "SQL"],
-  frameworks: ["React JS", "Node.js", "Express", "Django", "TensorFlow", "Next.js"],
-  tools: ["Git", "Docker", "AWS", "Firebase", "PostgreSQL", "Microsoft Azure", "colab", "Supabase"],
-  other: ["Machine Learning", "Data Analysis", "RESTful APIs", "GraphQL", "CI/CD", "Agile Methodology"],
+  frameworks: ["React JS", "Node.js", "Express", "Django", "Scikit", "Next.js","Material UI", "Bootstrap"],
+  tools: ["Git", "Docker", "VS Code", "Firebase", "PostgreSQL", "Microsoft Azure", "colab", "Supabase"],
+  other: ["Machine Learning", "Data Analysis", "RESTful APIs", "ChartJS", "CI/CD", "Agile Methodology"],
 }
 
 export default function About() {
